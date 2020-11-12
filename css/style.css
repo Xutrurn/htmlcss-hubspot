@@ -95,19 +95,35 @@ header{
 /* ! Nav-Bottom */
 .nav-bottom{
   margin: auto;
-  background-color: rgb(236, 85, 173);
+  /* background-color: rgb(236, 85, 173); */
   width: 80%;
   height: 100px;
 }
 
 .nav-bottom-left{
   width: 50%;
-  background-color: rgb(52, 118, 128);
+  /* background-color: rgb(52, 118, 128); */
   height: 100px;
+  line-height: 100px;
 }
 
 .nav-bottom-right{
   width: 50%;
-  background-color: rgb(61, 170, 189);
+  /* background-color: rgb(61, 170, 189); */
   height: 100px;
+  line-height: 100px;
+  text-align: right;
 }
+
+
+
+
+
+
+
+
+
+/* ! Main */
+
+
+/* ! Footer */
