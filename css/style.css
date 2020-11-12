@@ -89,6 +89,10 @@ header{
   text-align: right;
 }
 
+.nav-top-right ul li a{
+  padding-left: 10px;
+}
+
 /* ! Navigation-Bar Full BOTTOM */
 .nav-full-bottom-bar{
   background-color: #ffffff;
