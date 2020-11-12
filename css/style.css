@@ -55,6 +55,7 @@ header{
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: 57%;
+  position: relative;
 }
 
 /* ! Navigation-Bar Full TOP */
@@ -138,13 +139,15 @@ header{
 
 .jumbotron h1{
   font-size: 350%;
+  font-weight: bold;
   margin-bottom: 50px;
 }
 
 .jumbotron p{
   font-size: 110%;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   margin-bottom: 50px;
+  /* font-weight: 500; */
 }
 
 .jumbotron a{
@@ -154,6 +157,22 @@ header{
 .jumbotron h3{
   margin-top: 50px;
 }
+
+/* ! Gradient Strip */
+
+.gradient-strip{
+  background-color: #afebe4;
+  height: 85px;
+  /* height: 50px; */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+
+}
+
 
 
 
