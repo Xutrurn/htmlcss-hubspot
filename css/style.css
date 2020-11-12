@@ -110,12 +110,13 @@ header{
   text-align: left;
 }
 
-.nav-top-left-lang, .nav-top-left-bar{
+.nav-top-left-lang, .nav-top-left-bar, .nav-top-left-contact{
   display:inline-block;
 }
 
-.nav-top-left-lang{
-  margin-right: 50px;
+.nav-top-left-lang, .nav-top-left-bar{
+  /* border-right: 1px solid black; */
+  margin-right: 25px;
 }
 
 .nav-top-right{
@@ -220,18 +221,23 @@ header{
   border-bottom: 3px solid #33475b;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ! Main */
+
+main{
+  height: 500px;
+  background-color: rgb(24, 221, 130);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ! Footer */
