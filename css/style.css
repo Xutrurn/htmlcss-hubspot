@@ -42,8 +42,28 @@ a{
   text-decoration: none;
   color: #32495b;
 }
-
 /* ! General Rules End */
+
+/* ! Buttons */
+.orange{
+  border: .1px solid #fe775a;
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.orangebcg{
+  background-color: #fe775a;
+}
+
+.big{
+  padding: 30px;
+  border-radius: 5px;
+}
+
+
 
 /* ! Header Start */
 header{
@@ -89,8 +109,8 @@ header{
   text-align: right;
 }
 
-.nav-top-right ul li a{
-  padding-left: 10px;
+.nav-top-right ul li{
+  padding-left: 30px;
 }
 
 /* ! Navigation-Bar Full BOTTOM */
@@ -116,7 +136,7 @@ header{
   line-height: 100px;
 }
 
-.nav-bottom-right ul li a{
+.nav-bottom-right ul li{
   padding-left: 10px;
 }
 
@@ -167,7 +187,6 @@ header{
 }
 
 /* ! Gradient Strip */
-
 .gradient-strip{
   background-color: #afebe4;
   height: 85px;
@@ -179,6 +198,7 @@ header{
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
 }
+
 
 
 
