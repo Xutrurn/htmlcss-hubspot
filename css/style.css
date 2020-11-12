@@ -112,6 +112,10 @@ header{
   line-height: 100px;
 }
 
+.nav-bottom-right ul li a{
+  padding-left: 10px;
+}
+
 .nav-bottom-right{
   width: 50%;
   /* background-color: rgb(61, 170, 189); */
@@ -170,8 +174,8 @@ header{
   left: 0;
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
-
 }
+
 
 
 
