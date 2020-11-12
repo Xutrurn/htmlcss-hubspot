@@ -30,6 +30,19 @@ body{
   /* margin: auto; */
 }
 
+nav ul li{
+  display: inline-block;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #32495b;
+}
+
 /* ! General Rules End */
 
 /* ! Header Start */
@@ -58,14 +71,17 @@ header{
 
 .nav-top-left{
   width: 50%;
-  background-color: rgb(116, 55, 203);
-  height: 100%;
+  /* background-color: rgb(116, 55, 203); */
+  height: 100px;
+  line-height: 100px;
 }
 
 .nav-top-right{
   width: 50%;
-  background-color: rgb(66, 20, 131);
-  height: 100%;
+  /* background-color: rgb(66, 20, 131); */
+  height: 100px;
+  line-height: 100px;
+  text-align: right;
 }
 
 /* ! Navigation-Bar Full BOTTOM */
@@ -87,11 +103,11 @@ header{
 .nav-bottom-left{
   width: 50%;
   background-color: rgb(52, 118, 128);
-  height: 100%;
+  height: 100px;
 }
 
 .nav-bottom-right{
   width: 50%;
   background-color: rgb(61, 170, 189);
-  height: 100%;
+  height: 100px;
 }
