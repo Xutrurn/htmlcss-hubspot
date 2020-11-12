@@ -115,6 +115,18 @@ header{
   text-align: right;
 }
 
+/* ! Jumbotron */
+.jumbotron{
+  height: 500px;
+  margin: auto;
+  width: 80%
+  /* background-color: rgb(106, 115, 222); */
+}
+
+.jumbotron h1, p, h3{
+  color: #33475b;
+}
+
 
 
 
