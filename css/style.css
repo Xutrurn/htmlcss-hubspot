@@ -137,7 +137,22 @@ header{
 }
 
 .jumbotron h1{
-  font-size: 250%;
+  font-size: 350%;
+  margin-bottom: 50px;
+}
+
+.jumbotron p{
+  font-size: 110%;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.jumbotron a{
+  margin-bottom: 50px;
+}
+
+.jumbotron h3{
+  margin-top: 50px;
 }
 
 
