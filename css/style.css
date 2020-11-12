@@ -46,7 +46,7 @@ a{
 
 /* ! Buttons */
 .orange{
-  border: .1px solid #fe775a;
+  border: .5px solid #fe775a;
 }
 
 .btn{
@@ -61,6 +61,14 @@ a{
 .big{
   padding: 30px;
   border-radius: 5px;
+}
+
+.btnw{
+  color: white;
+}
+
+.btno{
+  color: #fe775a;
 }
 
 
@@ -111,6 +119,10 @@ header{
 
 .nav-top-right ul li{
   padding-left: 30px;
+}
+
+.nav-top-right .btnw{
+  color: white;
 }
 
 /* ! Navigation-Bar Full BOTTOM */
