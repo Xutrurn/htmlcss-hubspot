@@ -107,6 +107,15 @@ header{
   /* background-color: rgb(116, 55, 203); */
   height: 100px;
   line-height: 100px;
+  text-align: left;
+}
+
+.nav-top-left-lang, .nav-top-left-bar{
+  display:inline-block;
+}
+
+.nav-top-left-lang{
+  margin-right: 50px;
 }
 
 .nav-top-right{
