@@ -614,6 +614,61 @@ font-size: 40px;
   font-weight: bolder;
 }
 
+.eightplusmove h3::after {
+  content: "+";
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  bottom: 45%;
+  left: 58%;
+  font-weight: bolder;
+}
+
+.twoplusmove h3::after {
+  content: "+";
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  bottom: 45%;
+  left: 63%;
+  font-weight: bolder;
+}
+
+.threeplusmove h3::after {
+  content: "+";
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  bottom: 45%;
+  left: 63%;
+  font-weight: bolder;
+}
+
+.sixplusmove h3::after {
+  content: "+";
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  bottom: 45%;
+  left: 55%;
+  font-weight: bolder;
+}
+
+.sevenplusmove h3::after {
+  content: "+";
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  bottom: 45%;
+  left: 63%;
+  font-weight: bolder;
+}
+
 .community-descr {
   width: 100%;
   height: calc(100% / 3);
@@ -640,10 +695,50 @@ font-size: 40px;
   border-bottom: 1px solid white;
 }
 
+.eightcrddown, .sevencrddown, .sixcrddown, .fivecrddown {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
 /* ! learngrow Row */
 .startgrow {
-  height: 450px;
-  background-color: blue;
+  /* height: 900px; */
+  background-color: white;
+}
+
+/* ! Startgrow - FirtRow */
+.startgrow-firstrow {
+  height: 380px;
+  background-color: rgb(183, 217, 78);
+}
+
+/* ! Startgrow - SecondRow */
+.startgrow-secondrow {
+  height: 720px;
+  margin: auto;
+  width: 80%;
+  position: relative;
+  /* background-color: rgb(208, 191, 142); */
+}
+
+.morehum {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(168, 181, 226);
+}
+
+.woman {
+  height: 100%;
+  width: 50%;
+  top: -5;
+}
+
+.woman img {
+  position: absolute;
+  width: 25%;
+  bottom: 10%;
+  left: 75%;
 }
 
 /* ! Footer */
