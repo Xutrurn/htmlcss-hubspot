@@ -114,6 +114,20 @@ header {
   border-bottom: 1px solid #33475b;
 }
 
+/* ! Testing Chat Bot */
+.chatbot-box {
+  background-color: rgba(126, 114, 219, .5);
+  height: 180px;
+  width: 350px;
+  right: 2.5%;
+  bottom: 5%;
+  z-index: 1;
+  position: fixed;
+}
+
+
+
+
 /* ! Nav-Top */
 .nav-top {
   margin: auto;
@@ -172,6 +186,8 @@ header {
   background-color: #fff;
   margin-top: 100px;
 }
+
+
 
 /* ! Nav-Bottom */
 .nav-bottom {
