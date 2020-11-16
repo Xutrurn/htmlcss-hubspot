@@ -166,7 +166,7 @@ header {
   width: 100%;
   height: 100px;
   /* Fixed Settings */
-  position: sticky;
+  /* position: sticky; */
   z-index: 1;
   top: 0;
   background-color: #fff;
@@ -709,8 +709,96 @@ font-size: 40px;
 
 /* ! Startgrow - FirtRow */
 .startgrow-firstrow {
-  height: 380px;
-  background-color: rgb(183, 217, 78);
+  height: 480px;
+  /* height: 550px; */
+  width: 80%;
+  margin: auto;
+  /* background-color: rgb(183, 217, 78); */
+}
+
+.startgrow-sxcol {
+  /* background-color: rgba(172, 154, 221, .5); */
+  height: 100%;
+  width: 25%;
+}
+
+.startgrow-sx-n {
+  height: 50%;
+  width: 100%;
+}
+
+.startgrow-sxcol-n h2 {
+  padding-top: 75px;
+  line-height: 50px;
+  font-weight: bolder;
+  color: #33475b;
+  font-size: 60px;
+  text-align: center;
+}
+
+.startgrow-sxcol-descr p {
+  text-align: left;
+  color: #33475b;
+  line-height: 40px;
+  padding-left: 160px;
+  padding-top: 50px;
+  padding-right: 80px;
+  font-weight: 500;
+  font-size: 20px;
+  /* padding-left:  */
+}
+
+.startgrow-sxcol-descr-b {
+  font-weight: bolder;
+}
+
+.startgrow-dxcol {
+  /* background-color: rgb(235, 173, 100); */
+  height: 100%;
+  width: 75%;
+}
+
+.startgrow-dxcol-box {
+  /* background-color: rgb(193, 231, 102); */
+  height: 75%;
+  width: 65%;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 280px;
+}
+
+.startgrow-dxcol-box-card {
+  width: calc(100% / 4);
+  height: 50%;
+  /* background-color: rgb(166, 212, 108); */
+}
+
+.startgrow-dxcol-box-card img {
+  width: 85%;
+}
+
+[alt~=Trello]{
+  margin-top: 30px;
+}
+
+[alt~=G2]{
+  margin-top: 10px;
+}
+
+[alt~=VSRGB]{
+  margin-top: 10px;
+}
+
+[alt~=Soundcloud]{
+  margin-top: 15px;
+}
+
+[alt~=Classpass]{
+  margin-top: -15px;
+}
+
+[alt~=VmWare]{
+  margin-top: -5px;
 }
 
 /* ! Startgrow - SecondRow */
