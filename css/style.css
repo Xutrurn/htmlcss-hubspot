@@ -269,7 +269,7 @@ main {
   /* width: auto; */
   background-color: #f4f9fd;
   margin: auto;
-  margin-bottom: 300px;
+  margin-bottom: 0;
   /* testing */
 }
 
@@ -777,27 +777,27 @@ font-size: 40px;
   width: 85%;
 }
 
-[alt~=Trello]{
+[alt~=Trello] {
   margin-top: 30px;
 }
 
-[alt~=G2]{
+[alt~=G2] {
   margin-top: 10px;
 }
 
-[alt~=VSRGB]{
+[alt~=VSRGB] {
   margin-top: 10px;
 }
 
-[alt~=Soundcloud]{
+[alt~=Soundcloud] {
   margin-top: 15px;
 }
 
-[alt~=Classpass]{
+[alt~=Classpass] {
   margin-top: -15px;
 }
 
-[alt~=VmWare]{
+[alt~=VmWare] {
   margin-top: -5px;
 }
 
@@ -813,7 +813,29 @@ font-size: 40px;
 .morehum {
   width: 50%;
   height: 100%;
-  background-color: rgb(168, 181, 226);
+  /* background-color: rgb(168, 181, 226); */
+}
+
+.jumboh2 {
+  margin-right: -500px;
+}
+
+.jumbop {
+  font-weight: bolder;
+  line-height: 30px;
+  margin-right: -300px;
+  font-size: 150%;
+  padding-bottom: 50px;
+}
+
+.jumboh3 {
+  margin-right: -300px;
+  padding-top: 50px;
+  font-size: 15px;
+}
+
+.btntron {
+  padding: 20px 50px;
 }
 
 .woman {
@@ -824,9 +846,18 @@ font-size: 40px;
 
 .woman img {
   position: absolute;
-  width: 25%;
+  width: 29%;
   bottom: 10%;
-  left: 75%;
+  /* left: 75%; */
+  left: 65%;
 }
+
+footer{
+  background-color: rgb(150, 227, 146);
+  height: 200px;
+  width: 100%;
+}
+
+
 
 /* ! Footer */
