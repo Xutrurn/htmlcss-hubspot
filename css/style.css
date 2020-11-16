@@ -852,12 +852,85 @@ font-size: 40px;
   left: 65%;
 }
 
-footer{
-  background-color: rgb(150, 227, 146);
-  height: 200px;
+/* ! Footer Start */
+footer {
+  background-color: #32495b;
+  height: 900px;
   width: 100%;
 }
 
+.links {
+  /* background-color: rgb(143, 203, 232); */
+  height: 70%;
+  width: 75%;
+  margin: auto;
+}
 
+.links-box {
+  height: 100%;
+  width: calc(100% / 4);
+  /* width: 25%; */
+  /* background-color: rgb(230, 188, 117); */
+}
 
-/* ! Footer */
+.links-box ul {
+  padding-top: 45px;
+  color: #dadee0;
+}
+
+.links-box h2 {
+  padding-bottom: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.links-box a {
+  color: #dadee0;
+  display: block;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.links-box a:hover {
+  color: #7fd1de;
+}
+
+.btnwht {
+  padding-top: 25px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #dadee0;
+}
+
+.boxbtnwht {
+  margin-right: 140px;
+}
+
+.boxbtnwht a {
+  color: #32495b;
+  font-weight: 500;
+}
+
+.socialbox{
+  height: 30px;
+  line-height: 30px;
+  width: 400px;
+  padding-left: 10px;
+  margin-top: -80px;
+}
+
+.dxdx{
+  padding-right: 32px;
+}
+
+.socialbox a{
+  float: left;
+  font-size: 18px;
+}
+
+/* .sociallink{
+  height: 55px;
+  line-height: 55px;
+  width: 50px;
+} */
