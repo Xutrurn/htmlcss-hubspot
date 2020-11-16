@@ -862,7 +862,7 @@ footer {
 .links {
   /* background-color: rgb(143, 203, 232); */
   height: 70%;
-  width: 75%;
+  width: 80%;
   margin: auto;
 }
 
@@ -898,13 +898,12 @@ footer {
 
 .btnwht {
   padding-top: 25px;
+  /* padding-bottom: 30px; */
   text-align: center;
   border-radius: 5px;
   background-color: #dadee0;
-}
-
-.boxbtnwht {
-  margin-right: 140px;
+  /* margin-right: -50px; */
+  margin-right: 250px;
 }
 
 .boxbtnwht a {
@@ -912,25 +911,88 @@ footer {
   font-weight: 500;
 }
 
-.socialbox{
+.socialbox {
   height: 30px;
   line-height: 30px;
   width: 400px;
   padding-left: 10px;
-  margin-top: -80px;
+  margin-top: -100px;
 }
 
-.dxdx{
+.dxdx {
   padding-right: 32px;
 }
 
-.socialbox a{
+.socialbox a {
   float: left;
   font-size: 18px;
 }
 
-/* .sociallink{
-  height: 55px;
-  line-height: 55px;
-  width: 50px;
-} */
+.changelang {
+  height: 135px;
+  width: 80%;
+  margin: auto;
+  /* background-color: rgb(230, 112, 148); */
+}
+
+.changelang ul {
+  text-align: center;
+  line-height: 135px;
+}
+
+.changelang a:hover {
+  color: #7fd1de;
+}
+
+.changelang a {
+  color: #dadee0;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+.credits {
+  height: 135px;
+  width: 80%;
+  margin: auto;
+  /* padding-top: 35px; */
+  border-top: 1px solid white;
+  /* background-color: rgb(149, 69, 93); */
+}
+
+.creditslogo {
+  /* background-color: rgb(138, 109, 227); */
+  height: 68px;
+  width: 50%;
+  line-height: 68px;
+  text-align: left;
+}
+
+.legalnpriv {
+  /* background-color: rgb(138, 109, 227); */
+  height: 68px;
+  width: 50%;
+  line-height: 68px;
+  text-align: right;
+}
+
+.legalnpriv a:hover {
+  color: #7fd1de;
+}
+
+.legalnpriv a {
+  color: #dadee0;
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.copyrightlast {
+  height: 67px;
+  width: 80%;
+  margin: auto;
+  /* background-color: red; */
+}
+
+.copyrightlast p {
+  color: white;
+}
