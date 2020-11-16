@@ -125,33 +125,49 @@ header {
   position: fixed;
 }
 
-
-.botface{
+.botface {
   height: 50px;
-  /* padding-top: -5px; */
+  margin-top: 25px;
+  /* position: absolute; */
   /* background-color: rgb(230, 194, 142); */
   width: 50px;
   margin: auto;
   line-height: 25px;
+  position: relative;
 }
 
-.botface img{
-height: 100%;
-
+.botface img {
+  height: 100%;
+  position: absolute;
+  top: 50%;
 }
 
-.chatbot-text{
+.chatbot-text {
   background-color: white;
   height: 95px;
-  box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.25);
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.chatbot-space-for-x {
+  height: 30px;
+  /* background-color: rgb(164, 130, 217); */
+  text-align: right;
+  line-height: 30px;
+  padding-right: 15px;
+}
+
+.chatbot-space-for-text {
+  /* background-color: rgb(104, 138, 219); */
+  text-align: left;
+  height: 65px;
+  padding-left: 15px;
+  padding-right: 10px;
+  line-height: 25px;
+
 }
 
 /* ! Testing Chat Bot End */
-
-
-
-
-
 /* ! Nav-Top */
 .nav-top {
   margin: auto;
@@ -210,8 +226,6 @@ height: 100%;
   background-color: #fff;
   margin-top: 100px;
 }
-
-
 
 /* ! Nav-Bottom */
 .nav-bottom {
